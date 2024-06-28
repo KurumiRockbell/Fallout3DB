@@ -1,0 +1,235 @@
+{
+    "weapons": [
+        {
+            "name": "10mm Pistol",
+            "description": "A standard sidearm used by the inhabitants of the wasteland.",
+            "ammo": "10mm Rounds",
+            "category": "Pistol",
+            "image": "./images/10mm_pistol_29.webp",
+            "damage": "10",
+            "weight": "3",
+            "value": "50",
+            "power": 2
+        },
+        {
+            "name": "Chinese Assault Rifle",
+            "description": "A powerful assault rifle of Chinese origin, favored for its high damage output.",
+            "ammo": "5.56mm Rounds",
+            "category": "Rifle",
+            "image": "./images/Chinese_assault_rifle.webp",
+            "damage": "12",
+            "weight": "7",
+            "value": "75",
+            "power": 4
+        },
+        {
+            "name": "Combat Shotgun",
+            "description": "A versatile shotgun ideal for close-quarters combat.",
+            "ammo": "12 Gauge Shells",
+            "category": "Shotgun",
+            "image": "./images/COMBATSHOTGUN.webp",
+            "damage": "20",
+            "weight": "8",
+            "value": "100",
+            "power": 3
+        },
+        {
+            "name": "Hunting Rifle",
+            "description": "A reliable rifle used for hunting and defense.",
+            "ammo": ".32 Caliber Rounds",
+            "category": "Rifle",
+            "image": "./images/HuntingRifleFO3.webp",
+            "damage": "15",
+            "weight": "6",
+            "value": "55",
+            "power": 3
+        },
+        {
+            "name": "Laser Rifle",
+            "description": "A high-tech energy weapon that fires laser beams.",
+            "ammo": "Microfusion Cells",
+            "category": "Energy Weapon",
+            "image": "./images/AER9_laser_rifle.webp",
+            "damage": "18",
+            "weight": "5",
+            "value": "200",
+            "power": 5
+        },
+        {
+            "name": "Minigun",
+            "description": "A heavy weapon capable of firing hundreds of rounds per minute.",
+            "ammo": "5mm Rounds",
+            "category": "Heavy Weapon",
+            "image": "./images/5MMMINIGUN.webp",
+            "damage": "8",
+            "weight": "25",
+            "value": "150",
+            "power": 4
+        },
+        {
+            "name": "Fat Man",
+            "description": "A portable nuclear catapult that launches mini-nukes.",
+            "ammo": "Mini Nukes",
+            "category": "Explosive",
+            "image": "./images/Fat_Man.webp",
+            "damage": "1000",
+            "weight": "30",
+            "value": "500",
+            "power": 5
+        },
+        {
+            "name": "Plasma Rifle",
+            "description": "An advanced energy weapon that fires superheated bolts of plasma.",
+            "ammo": "Microfusion Cells",
+            "category": "Energy Weapon",
+            "image": "./images/PlasmaRifle.webp",
+            "damage": "25",
+            "weight": "8",
+            "value": "300",
+            "power": 5
+        },
+        {
+            "name": "Sniper Rifle",
+            "description": "A long-range rifle with a scope for precision shooting.",
+            "ammo": ".308 Caliber Rounds",
+            "category": "Rifle",
+            "image": "./images/Sniper_rifle.webp",
+            "damage": "40",
+            "weight": "9",
+            "value": "120",
+            "power": 4
+        },
+        {
+            "name": "Super Sledge",
+            "description": "A powerful melee weapon with a hydraulic power boost for increased damage.",
+            "ammo": "N/A",
+            "category": "Melee",
+            "image": "./images/SUPERSLEDGE.webp",
+            "damage": "45",
+            "weight": "12",
+            "value": "80",
+            "power": 4
+        },
+        {
+            "name": "BB Gun",
+            "description": "A basic air gun used mainly for training and small game hunting.",
+            "ammo": "BBs",
+            "category": "Pistol",
+            "image": "./images/BBGUN.webp",
+            "damage": "2",
+            "weight": "1",
+            "value": "5",
+            "power": 1
+        },
+        {
+            "name": "Scoped .44 Magnum",
+            "description": "A powerful revolver with a scope for improved accuracy.",
+            "ammo": ".44 Magnum Rounds",
+            "category": "Pistol",
+            "image": "./images/44_magnum_revolver_(Fallout_New_Vegas).webp",
+            "damage": "30",
+            "weight": "4",
+            "value": "70",
+            "power": 3
+        },
+        {
+            "name": "Flamer",
+            "description": "A weapon that projects a stream of fire, effective against unarmored targets.",
+            "ammo": "Flamer Fuel",
+            "category": "Heavy Weapon",
+            "image": "./images/FLAMER.webp",
+            "damage": "35",
+            "weight": "15",
+            "value": "90",
+            "power": 4
+        },
+        {
+            "name": "Power Fist",
+            "description": "A mechanical glove that enhances unarmed combat abilities with hydraulic force.",
+            "ammo": "N/A",
+            "category": "Melee",
+            "image": "./images/POWERFIST.webp",
+            "damage": "25",
+            "weight": "6",
+            "value": "60",
+            "power": 4
+        },
+        {
+            "name": "Railway Rifle",
+            "description": "A homemade weapon that fires railway spikes with deadly force.",
+            "ammo": "Railway Spikes",
+            "category": "Rifle",
+            "image": "./images/Railway_rifle_(Fallout_4).webp",
+            "damage": "50",
+            "weight": "10",
+            "value": "110",
+            "power": 5
+        },
+        {
+            "name": "Shishkebab",
+            "description": "A makeshift flaming sword made from a lawnmower blade and a motorcycle fuel tank.",
+            "ammo": "Flamer Fuel",
+            "category": "Melee",
+            "image": "./images/Shishkebab.webp",
+            "damage": "40",
+            "weight": "5",
+            "value": "95",
+            "power": 5
+        },
+        {
+            "name": "Frag Grenade",
+            "description": "A throwable explosive device that causes damage over a wide area.",
+            "ammo": "N/A",
+            "category": "Explosive",
+            "image": "./images/FRAGGRENADE.webp",
+            "damage": "60",
+            "weight": "0.5",
+            "value": "25",
+            "power": 4
+        },
+        {
+            "name": "Bottlecap Mine",
+            "description": "An improvised explosive device made from a lunchbox, cherry bombs, and bottle caps.",
+            "ammo": "N/A",
+            "category": "Explosive",
+            "image": "./images/Bottlecap_mine_(Fallout_4).webp",
+            "damage": "300",
+            "weight": "3",
+            "value": "100",
+            "power": 5
+        },
+        {
+            "name": "Missile Launcher",
+            "description": "A heavy weapon that fires explosive missiles, effective against armored targets.",
+            "ammo": "Missiles",
+            "category": "Heavy Weapon",
+            "image": "./images/MISSILELAUNCHER.webp",
+            "damage": "150",
+            "weight": "20",
+            "value": "200",
+            "power": 5
+        },
+        {
+            "name": "Laser Pistol",
+            "description": "A smaller, more compact version of the laser rifle, ideal for sidearm use.",
+            "ammo": "Energy Cells",
+            "category": "Energy Weapon",
+            "image": "./images/Laser_pistol_(Gamebryo).webp",
+            "damage": "12",
+            "weight": "3",
+            "value": "100",
+            "power": 3
+        },
+        {
+            "name": "Plasma Pistol",
+            "description": "A smaller version of the plasma rifle, firing superheated plasma bolts.",
+            "ammo": "Energy Cells",
+            "category": "Energy Weapon",
+            "image": "./images/PlasmaPistol.webp",
+            "damage": "20",
+            "weight": "4",
+            "value": "150",
+            "power": 4
+        }
+    ]
+}

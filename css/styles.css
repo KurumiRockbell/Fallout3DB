@@ -1,0 +1,190 @@
+/* Global styles */
+body {
+    background-color: #101e15;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00cc00;
+}
+
+/* Header styles */
+header {
+    background-color: #0b3d27;
+    background-size: cover;
+    background-position: center;
+    color: #00ff00;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+header .navbar {
+    border-bottom: 2px solid #00ff00;
+}
+
+header .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header .nav-link {
+    color: #00ff00;
+    margin-right: 1rem;
+}
+
+header .nav-link:hover {
+    color: #00cc00;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background-color: #0b3d27;
+    color: #00ff00;
+    text-shadow: 1px 1px 2px #000000;
+    padding: 5rem 2rem;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.jumbotron .btn-primary {
+    background-color: #00ff00;
+    border: none;
+    color: #000000;
+}
+
+.jumbotron .btn-primary:hover {
+    background-color: #00cc00;
+    color: #000000;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+.bg-dark {
+    background-color: #0b3d27 !important;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+}
+
+.text-white {
+    color: #00ff00 !important;
+}
+
+/* Styles pour le GIF */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+/* Card styles */
+.card {
+    background-color: #1a472a;
+    border: 1px solid #00ff00;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #00ff00;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #00ff00;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+/* Button styles */
+.btn-lg, .btn-primary, .btn-info {
+    background-color: #00ff00;
+    border: none;
+    color: #000000;
+}
+
+.btn-lg:hover, .btn-primary:hover, .btn-info:hover {
+    background-color: #00cc00;
+    color: #000000;
+}
+
+/* Button small */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+}
+
+/* Input styles */
+#searchBox {
+    background-color: #0b3d27;
+    border: 2px solid #00ff00;
+    color: #00ff00;
+    width: 40%;
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+#searchBox::placeholder {
+    color: #00ff00;
+}
+
+/* Modal styles */
+.modal-content {
+    background-color: #1a472a;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+}
+
+.modal-header, .modal-body {
+    border-bottom: 1px solid #00ff00;
+}
+
+/* Pagination styles */
+.pagination .page-item .page-link {
+    color: #00ff00; /* Green text color */
+    background-color: #0b3d27; /* Dark green background color */
+    border: 1px solid #00ff00; /* Green border */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #00ff00; /* Green background color for active page */
+    color: #000000; /* Black text color for active page */
+    border-color: #00ff00; /* Green border color for active page */
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #00cc00; /* Darker green on hover */
+    color: #000000; /* Black text color on hover */
+    border-color: #00cc00; /* Darker green border on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 3rem 1rem;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.5rem;
+    }
+}
